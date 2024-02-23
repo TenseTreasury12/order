@@ -1,0 +1,33 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "pages-home"
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-file",
+      "name": "Orders",
+      "slug": "pages-page-2",
+      "submenu": [
+        {
+          "url": "page-2",
+          "name": "Order List",
+          "slug": "pages-page-2"
+        },
+        {
+          "url": "page-2",
+          "name": "Order Details",
+          "slug": "pages-page-1"
+        }
+      ]
+    },
+    {
+      "url": "page-3",
+      "icon": "menu-icon tf-icons ti ti-server",
+      "name": "Inventory",
+      "slug": "pages-page-3"
+    }
+  ]
+}
